@@ -64,24 +64,19 @@ td{
         padding: 0;
     }
 
-    .external-container{
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin: 0 auto;
-        color: blue;
-    }
-
     div > .div-principal{
         justify-self: center;
         align-self: center;
-        background-color: silver;
+        width: 100vw;
+        height: 100vh;
+        font-size: 11px;
+        padding: 2px;
     }
 
     form{
+        color: blue;
+        width: 80vw;
+        background: silver;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -95,6 +90,10 @@ td{
     
     button {
         margin-top: 20px;
-        margin-left: 250px;
+        margin-left: 100px;
+    }
+
+    td{
+        padding: 2px;
     }
 }
