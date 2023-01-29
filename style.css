@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, rgb(184, 184, 212), rgb(163, 134, 134), rgb(122, 141, 122));
+}
+
+.external-container{
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+}
+
+div > .div-principal{
+    justify-self: center;
+    align-self: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    background-color: whitesmoke;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+label{
+    padding: 5px;
+}
+
+table thead{
+    font-weight: bold;
+}
+
+input{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+td{
+    padding: 10px;
+}
+
