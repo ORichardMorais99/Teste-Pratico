@@ -32,7 +32,6 @@ form{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 label{
@@ -57,3 +56,45 @@ td{
     padding: 10px;
 }
 
+
+@media screen and (max-width: 500px) {
+
+    .external-container{
+        width: 100vw;
+        height: 100vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        margin: 0 auto;
+        color: blue;
+        font-size: 15px;
+    }
+
+    div > .div-principal{
+        justify-self: center;
+        align-self: center;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px black;
+        background-color: whitesmoke;
+    }
+
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    input{
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    
+    button {
+        margin-top: 20px;
+        margin-left: 250px;
+    }
+}
