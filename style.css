@@ -59,26 +59,26 @@ td{
 
 @media screen and (max-width: 500px) {
 
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
     .external-container{
         width: 100vw;
-        height: 100vh; 
+        height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        align-content: center;
         margin: 0 auto;
         color: blue;
-        font-size: 15px;
     }
 
     div > .div-principal{
         justify-self: center;
         align-self: center;
-        padding: 50px;
-        border-radius: 10px;
-        box-shadow: 10px 10px 10px black;
-        background-color: whitesmoke;
+        background-color: silver;
     }
 
     form{
